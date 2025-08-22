@@ -1,0 +1,18 @@
+{
+  "name": "API BRM",
+  "version": "1.0.0",
+  "description": "Documentación oficial de la API REST BRM - Prueba Tecnica",
+  "title": "API Docs",
+  "url": "http://localhost:3000/api/v1",
+  "sampleUrl": "http://localhost:3000/api/v1",
+  "header": {
+    "title": "Información General",
+    "content": "<p>Esta API permite gestionar ordenes, facturas,autenticación y productos. Todas las respuestas están en formato <b>JSON</b>.</p>"
+  },
+  "template": {
+    "withGenerator": true,
+    "withCompare": true
+  },
+  "order": ["Auth", "Products", "Orders", "Invoices"],
+  "author": "Manuel Fonseca"
+}
